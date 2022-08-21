@@ -1,0 +1,116 @@
+    * {
+        text-decoration: none;
+        margin: auto 0;
+    }
+
+    body {
+        background-color: hsl(0, 0%, 95%);
+        height: 700px;
+    }
+
+/* main */
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+/* cards */
+    .cards {
+        height:400px;
+        width: 220px;
+        padding: 50px;
+        margin: 0;
+    }
+
+    #sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 8px 0 0 8px;
+    }
+
+    #suvs {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    #luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 8px 8px 0;
+    }
+
+/* textos */
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        color: hsl(0, 0%, 95%);
+        font-size: 40px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        max-width: 210px;
+        margin-top: 20px;
+        line-height: 170%;
+    }
+
+
+/* botoes */
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 90px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+}
+    button:hover {
+        border: 3px solid hsl(0, 0%, 95%);
+    }
+
+
+    #button-sedans {
+        color: hsl(31, 77%, 52%);
+    }
+
+    #button-sedans:hover { 
+        background-color: hsl(31, 77%, 52%);
+        color: hsl(0, 0%, 95%);
+    }
+
+    #button-suvs {
+        color: hsl(184, 100%, 22%);
+    }
+
+    #button-suvs:hover { 
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+    }
+
+    #button-luxury {
+        color: hsl(179, 100%, 13%);
+    }
+
+    #button-luxury:hover { 
+        background-color: hsl(179, 100%, 13%);
+        color: hsl(0, 0%, 95%);
+    }
+
+
+/* atribuicoes */
+    .attribution {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 11px; 
+        text-align: center;
+    }
+
+    .attribution a { 
+        color:hsl(184, 100%, 22%);
+
+    }
+
+    a:hover {
+        color: hsl(31, 77%, 52%);
+    }
